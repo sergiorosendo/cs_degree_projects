@@ -1,0 +1,10 @@
+Compile:
+  $make all
+
+Run:
+  $./ep3
+
+Folders:
+  src: .c source files
+  obj: .o object files
+  tmp: binary files

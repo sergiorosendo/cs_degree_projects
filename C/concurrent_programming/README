@@ -1,0 +1,20 @@
+Compiling (in GCC):
+  $make all
+
+Running (in GCC):
+  $./ep2 <track_lenght> <lap_count> <cyclist_count>
+
+Folders:
+  src: .c source files
+  inc: .h header files
+  obj: .o object files (files created after compilation)
+
+Academic objective: 
+	Introduction to parallel computing.
+
+About the program:
+	The program features a race track in which cyclists compete, each cyclist 
+is a thread (a subtask of the main program). Every cyclist should move between
+each time frame. So each thread has to be executed once, and only once, before
+the main thread advances another time step. To accomplish such synchronization,
+semaphores (variables that control when a thread may be executed) are used.
